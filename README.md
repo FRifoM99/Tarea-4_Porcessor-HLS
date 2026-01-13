@@ -25,6 +25,7 @@ Contiene los scripts de MATLAB utilizados para la verificación y pruebas funcio
 Contiene los archivos necesarios para la implementación física del sistema en la FPGA:
 * **Constraints/**: Archivos `.xdc` con las restricciones físicas y de tiempo para el diseño.
 * **Subcarpetas de Implementación**: Códigos fuente RTL (SystemVerilog) e IPs específicos para integrar cada una de las configuraciones probadas (`pipeline`, `Factor16`, `Factor64`, `Factor128`).
+* * **Schematics/**: Esquemas del *Elaborated Design* obtenidos durante la **Actividad 1**, documentando los cambios en la microarquitectura al variar el periodo de reloj (5ns, 15ns y 30ns).
 
 ---
 
