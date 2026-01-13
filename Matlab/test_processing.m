@@ -43,8 +43,8 @@ raw_dot = command2dev(device, 'dotProd', [], 0);
 dev_dot_val = double(raw_dot);
 
 % Resultados
-fprintf('Referencia Matlab : %.0f\n', host_dotProd);
-fprintf('Resultado FPGA    : %.0f\n', dev_dot_val);
+fprintf('Referencia Host : %.0f\n', host_dotProd);
+fprintf('Resultado Device    : %.0f\n', dev_dot_val);
 fprintf('Diferencia        : %.0f\n', abs(host_dotProd - dev_dot_val));
 fprintf('----------------------------------------\n');
 fprintf('DISPLAY HEX: %08X\n', raw_dot);
@@ -73,4 +73,5 @@ fprintf('DISPLAY HEX: %04X.%04X\n', hex_upper, hex_lower);
 
 %%
 clear device;
+
 fprintf('\nPruebas finalizadas. Puerto cerrado.\n');
