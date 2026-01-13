@@ -24,7 +24,7 @@ Contiene los scripts de MATLAB utilizados para la verificación y pruebas funcio
 ### `Vivado/`
 Contiene los archivos necesarios para la implementación física del sistema en la FPGA:
 * **Constraints/**: Archivos `.xdc` con las restricciones físicas y de tiempo para el diseño.
-* **Subcarpetas de Implementación**: Códigos fuente RTL (SystemVerilog) específicos para integrar cada una de las configuraciones probadas (`pipeline`, `Factor16`, `Factor64`, `Factor128`).
+* **Subcarpetas de Implementación**: Códigos fuente RTL (SystemVerilog) e IPs específicos para integrar cada una de las configuraciones probadas (`pipeline`, `Factor16`, `Factor64`, `Factor128`).
 
 ---
 
